@@ -21,10 +21,10 @@ $ sudo systemctl status mysql
 
 $ sudo mysql
 
-mysql> CREATE USER 'padoin'@'localhost' IDENTIFIED BY 'padoin123';
-mysql> GRANT ALL PRIVILEGES ON *.* TO 'padoin'@'localhost' WITH GRANT OPTION;
-mysql> FLUSH PRIVILEGES;
-mysql> exit
+mysql> CREATE USER 'padoin'@'localhost' IDENTIFIED BY 'padoin123';  
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'padoin'@'localhost' WITH GRANT OPTION;  
+mysql> FLUSH PRIVILEGES;  
+mysql> exit  
 
 
 
@@ -32,9 +32,9 @@ mysql> exit
 
 $ mysql -u padoin -p
 
-mysql> CREATE DATABASE SD2023;
-mysql> show databases;
-mysql> exit
+mysql> CREATE DATABASE SD2023;  
+mysql> show databases;  
+mysql> exit  
 
 
 
@@ -109,9 +109,9 @@ $ mysql -u root -p
 
 > senha: 1234 
 
-mysql> CREATE DATABASE SD2023;
-mysql> show databases;
-mysql> exit
+mysql> CREATE DATABASE SD2023;  
+mysql> show databases;  
+mysql> exit  
 
 
 ## Sair do container
@@ -121,8 +121,8 @@ $ exit
 
 ## Parar o container
 
-$ sudo docker ps
-$ sudo docker stop mysql2023docker
+$ sudo docker ps  
+$ sudo docker stop mysql2023docker  
 
 
 
